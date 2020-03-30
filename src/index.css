@@ -1,13 +1,90 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+body{
+    height: 1000px;
+    width: 100%;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+a{
+    color: whitesmoke;
+    text-decoration: none;
+    margin-right: 50px;
+}
+
+p{
+    font-size: 18px;
+    margin: 0 10% 25px 10%;
+}
+.navbar{
+    padding: 1% 0;
+}
+
+footer{
+    height: 70px;
+    color: whitesmoke;
+    padding: 10px 0 15px 0;
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    margin: auto;
+}
+
+/* About */
+.about{
+    background-image: url('./black-and-white-city-houses-skyline.jpg') ;
+    width: 100%;
+    height: 100%;
+    background-size: cover;
+    position: relative;
+
+}
+
+.about-text{
+    position: relative;
+    text-align: center;
+    top: 20%;
+    margin: 0  20%;
+}
+
+.about-text h1{
+    font-size: 400%;
+    font-weight: 600;
+    font-family: 'Poppins', sans-serif;
+}
+
+/* Portfolio */
+.card{
+    margin-bottom: 5px;
+}
+
+.card-body{
+    text-align: center;
+}
+
+.btn{
+    margin:0 auto;
+}
+
+.portfolio{
+    position: relative;
+    margin-bottom: 70px;
+    text-align: center;
+}
+
+/* Contact */
+.container{
+    width: 85%;
+    max-width: 600px;
+    position: relative;
+    top:15% ;
+    padding: 10px;
+    background: whitesmoke;
+    box-sizing: border-box;
+    border-radius: 8px;
+    text-align: center;  
+}
+
+input, textarea{
+    border: 2px solid #cccccc;
+    border-radius: 5px;
+    width: 80%;
 }
